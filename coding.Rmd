@@ -1,0 +1,24 @@
+---
+title: "coding"
+author: "Tim"
+date: "2022-11-10"
+output: html_document
+---
+
+```{r}
+#this is mainly for the MANCOVA
+```
+
+```{r Libraries, include=FALSE}
+#packages
+
+if (!require("ggpubr")) install.packages("ggpubr")
+library(ggpubr)
+if (!require("jmv")) install.packages("jmv")
+library(rstatix)
+if (!require("car")) install.packages("car")
+
+```
+
+
+
